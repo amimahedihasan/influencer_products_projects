@@ -1,3 +1,48 @@
-P{
-    color: yellowgreen;
+/* Shared Styles */
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    max-width: 1140px;
+    margin: 0 auto; 
+    margin-top: 30px;
+}
+.margin-all{
+    margin-bottom: 100px;
+}
+
+.mid-text{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(120, 120, 133, 1);
+}
+
+
+
+
+.display-flex{
+    display: flex;
+}
+
+
+.infulencer-logo h3{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+
+.head-parent{
+    list-style: none;
+    justify-content: space-between;
+    
+}
+.logo-var{
+    gap: 34px;
+    
+}
+.logo-var li{
+    color:#3A3A3A ;
+    font-size: 1rem;
+    font-weight: bold;
 }

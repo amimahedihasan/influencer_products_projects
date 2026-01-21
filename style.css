@@ -3,11 +3,23 @@
     padding: 0;
     margin: 0;
 }
-header{
+.pov-head{
+    padding: 30px;
+    justify-content: space-between;
+}
+.normal-layout{
     max-width: 1140px;
     margin: 0 auto; 
     margin-top: 30px;
 }
+
+.no-normal-layout{
+    max-width: 1260px;
+    margin: 0 auto; 
+    margin-top: 30px;
+}
+
+
 .margin-all{
     margin-bottom: 100px;
 }
@@ -15,16 +27,14 @@ header{
 .mid-text{
     font-size: 1rem;
     font-weight: bold;
-    color: rgba(120, 120, 133, 1);
-}
-
-
+    color: rgba(120, 120, 133, 1);}
 
 
 .display-flex{
     display: flex;
 }
 
+/* Header Section */
 
 .infulencer-logo h3{
     font-size: 1.25rem;
@@ -49,7 +59,7 @@ header{
 
  /* Start journey section   */
 
-.start-main{
+.start-main, .pov-head {
     align-items: center;
     justify-content: center;
     gap: 133px;
@@ -61,7 +71,7 @@ header{
     background-image: url(images/Circle\ design.svg);
 } 
 
-.section-heading{
+.section-heading1{
     font-size: 3rem;
     font-weight: 700;
     color: rgba(58, 58, 58, 1);
@@ -90,4 +100,132 @@ header{
     /* box-shadow:-10px 3px rgba(255, 255, 255, 1);; */
 }
 
+/* Card Section */
+.section-heading{
+    color: rgba(58, 58, 58, 1);
+    font-style: SemiBold;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-align: center;
 
+
+}
+
+
+.card-main{
+    /* gap: 10px; */
+    width: 329px;
+    height: 476px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgba(255, 255, 255, 1);  
+    gap: 20px;
+    
+}
+.card-container{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.rating-icon{
+    display: flex;
+}
+
+.img-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 11px;
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.card-heading{
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+}
+
+.num{
+    margin-left: 10px;
+}
+.card-number{
+    font-style: Medium;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+/* Featured products at one place */
+.featured-section{
+    display: flex;
+    gap: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.img-section img{
+    border-radius: 5px;
+}
+
+.sec-btn{
+   width: 155px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8;
+    padding: 10px 24px 10px 24px;
+    background: rgba(224, 44, 109, 1);
+    border: none;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+/* Footer Section */
+footer{
+background: rgba(10, 8, 38, 1);
+justify-items: center;
+margin-bottom: 20px;
+}
+.footer-icon{
+    gap: 16px;
+}
+.footer-heading{
+    color: rgba(255, 255, 255, 1);
+    font-family: Poppins;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 36px;
+    padding-top: 20px;
+}
+
+.footer-para{
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-bottom: 17px;
+    margin-top: 16px;
+}
+.footer-icon{
+    display: flex;
+    gap: 17px;
+    padding-bottom: 50px;
+}
